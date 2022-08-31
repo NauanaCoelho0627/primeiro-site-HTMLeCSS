@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.header{
+    padding: 15px;
+    border-bottom: 3px solid #32b9cd;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    color: #32b9cd;
+    font-weight: 800;
+}
+
+.navbar ul{
+    display: flex;
+    width: 350px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navbar ul li{
+    color: #e3b062;
+}
+
