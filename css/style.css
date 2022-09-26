@@ -19,6 +19,10 @@
     align-items: center;
     justify-content: space-around;
 }
+.container h1 a{
+    text-decoration: none;
+    color: #32b9cd;
+}
 
 h1{
     color: #32b9cd;
@@ -34,6 +38,12 @@ h1{
 
 .navbar ul li{
     color: #e3b062;
+}
+
+.navbar ul li a{
+    color:#e3b062;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*banner*/
@@ -80,4 +90,14 @@ h1{
 
 .box img{
     width: 150px;
+}
+
+/* footer */
+
+.footer{
+    padding: 45px 0;
+    background-color: #32b9cd;
+}
+.footer p{
+    color: #ffffff;
 }
